@@ -15,7 +15,7 @@ contract RewardsToken is Ownable {
     string public constant name = 'Rewards Cash';
     uint8 public constant decimals = 18;
 
-    uint256 public constant hardCap = 10 ** (18 + 9); //1B tokens. Max amount of tokens which can be minted
+    uint256 public constant hardCap = 5 * (10 ** (18 + 8)); //500MM tokens. Max amount of tokens which can be minted
     uint256 public totalSupply;
 
     bool public mintingFinished = false;

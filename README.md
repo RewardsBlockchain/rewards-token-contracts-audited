@@ -11,7 +11,7 @@ SafeMath library is used for math operations with safety checks that detect erro
 - symbol: RWD
 - name: Rewards Cash
 - decimals: 18
-- hardCap: 10**(18+9)
+- hardCap: 5 * (10**(18+8))
 
 ###### RewardsToken has 2 modifiers:
 - canMint: checks whether mintingFinished is not false.
